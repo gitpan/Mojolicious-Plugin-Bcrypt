@@ -3,7 +3,7 @@ package Mojolicious::Plugin::Bcrypt;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.011';
 
 use Mojo::Base 'Mojolicious::Plugin';
 use Crypt::Eksblowfish::Bcrypt qw(bcrypt en_base64);
@@ -50,7 +50,7 @@ Mojolicious::Plugin::Bcrypt - bcrypt your passwords!
 
 =head1 VERSION
 
-Version 0.01
+Version 0.011
 
 =head1 SYNOPSIS
 
@@ -105,6 +105,10 @@ Validates a password against a crypted copy (for example from your database).
             ...;
         }
     }
+
+=head1 DEVELOPMENT AND REPOSITORY
+
+Clone it on GitHub at https://github.com/naturalist/Mojolicious--Plugin--Bcrypt
 
 =head1 SEE ALSO
 
