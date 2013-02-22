@@ -1,28 +1,28 @@
 ---
-abstract: 'Mojolicious plugin for bcrypt'
+abstract: 'bcrypt your passwords!'
 author:
-  - 'minimalist <minimalist@lavabit.com>'
+  - 'minimalist <minimal@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 0
+  Encode: 0
+  Mojolicious::Lite: 0
+  Test::Mojo: 0
+  Test::More: 0
+  Test::Spelling: 0
 configure_requires:
-  ExtUtils::MakeMaker: 0
-distribution_type: module
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'ExtUtils::MakeMaker version 6.57_05'
+generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Mojolicious-Plugin-Bcrypt
-no_index:
-  directory:
-    - t
-    - inc
 requires:
-  Crypt::Eksblowfish::Bcrypt: 0.009
-  Mojolicious: 0
-  Test::More: 0
+  Crypt::Eksblowfish::Bcrypt: 0
+  Mojo::Base: 0
+  strict: 0
+  warnings: 0
 resources:
-  repository: git://github.com/naturalist/Mojolicious--Plugin--Bcrypt.git
-  bigtracker: https://github.com/naturalist/Mojolicious--Plugin--Bcrypt/issues
-version: 0.03
+  homepage: https://github.com/naturalist/Mojolicious--Plugin--Bcrypt
+  repository: https://github.com/naturalist/Mojolicious--Plugin--Bcrypt.git
+version: 0.04

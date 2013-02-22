@@ -2,7 +2,7 @@ NAME
     Mojolicious::Plugin::Bcrypt - bcrypt your passwords!
 
 VERSION
-    Version 0.01
+    Version 0.04
 
 SYNOPSIS
     Provides a helper for crypting and validating passwords via bcrypt.
@@ -54,6 +54,10 @@ HELPERS
                 ...;
             }
         }
+
+DEVELOPMENT AND REPOSITORY
+    Clone it on GitHub at
+    https://github.com/naturalist/Mojolicious--Plugin--Bcrypt
 
 SEE ALSO
     Crypt::Eksblowfish::Bcrypt, Mojolicious, Mojolicious::Plugin
